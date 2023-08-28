@@ -1,3 +1,5 @@
 (executable
  (public_name api)
- (name main))
+ (name main)
+ (libraries dream)
+ (preprocess (pps ppx_yojson_conv)))

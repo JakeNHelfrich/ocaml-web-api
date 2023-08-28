@@ -5,8 +5,12 @@
 (generate_opam_files true)
 
 (authors "Jake Helfrich")
+(maintainers "Jake Helfrich")
 
 (license NOLICENSE)
 
 (package
- (name api))
+ (name api)
+ (synopsis "Ocaml API")
+ (description "Ocaml API")
+ (depends dream ppx_yojson_conv))
