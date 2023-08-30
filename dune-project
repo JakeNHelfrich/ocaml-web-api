@@ -13,4 +13,5 @@
  (name api)
  (synopsis "Ocaml API")
  (description "Ocaml API")
+ (allow_empty)
  (depends dream ppx_yojson_conv))
